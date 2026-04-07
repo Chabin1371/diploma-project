@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84126d77ac342da43af0b05b90c40f77, type: 3}
+  m_Name: Producer_money
+  m_EditorClassIdentifier: 
+  Skill_ID: 2001
+  SkillName: 
+  Skill_icon: {fileID: 21300000, guid: 88afb6b6ed22e6141b72e5015da6a824, type: 3}
+  required_EXP_to_update: 100
+  required_Coin_to_unlocked: 0
+  requiredSkill: []
+  conflictingSkills: []
+  maxLevel: 10
+  SkillLevel: 0
+  SkillLevel_growth_scale: 0.2
+  skillEffects: []
+  skill_Effect: {fileID: 11400000, guid: 5bbd1d59d7196bc41827fee1c0727915, type: 2}
+  need_to_be_bought: 1
+  speed: 1

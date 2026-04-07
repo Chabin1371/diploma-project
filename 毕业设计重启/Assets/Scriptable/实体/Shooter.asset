@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f1486eb3a41174eb638b8a3fa536de, type: 3}
+  m_Name: Shooter
+  m_EditorClassIdentifier: 
+  tower_ID: 1000
+  icon: {fileID: 21300000, guid: f0ea1f6df6db78449bc13db2eff92e7d, type: 3}
+  Name: Shooter
+  level: 3
+  maxLevel: 10
+  required_EXP_to_update: 100
+  required_EXP_growth_scale: 0.5
+  tile: {fileID: 11400000, guid: aff92863160a6e54e80314650b46b990, type: 2}
+  tower: {fileID: 855191894630697455, guid: 772f7f66b669d8e42b348c0adf344140, type: 3}
+  energy: 100
+  energy_growth_scale: 0
+  energy_produce: 0
+  energy_produce_growth_scale: 0
+  base_Hp: 110
+  base_Hp_scale: 5
+  base_AP: 110
+  base_AP_scale: 5
+  attack_range: 20
+  attack_speed: 0
+  active_skill: []
